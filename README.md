@@ -1,10 +1,8 @@
 ## GlitchyTurtle
 
-You can use the [editor on GitHub](https://github.com/GlitchyTurtle/glitchyturtle.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+You can see most of them quickly on [MCPE DL](https://mcpedl.com/user/glitchyturtle32/), but more updated versions and others that you can't find there will be here (with safe downloads!)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
+### Addons
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
