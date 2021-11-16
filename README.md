@@ -5,7 +5,7 @@ Check out the Wiki for more info and customization! https://github.com/GlitchyTu
 # Setup:
 To install this anti-cheat to your realm/world you need to install the .mcpack and apply it to your world and it should be fully up and running! It is still in the beta stage, so stuff is still being added to it, and this is by no means the finished version (it will have bugs) - if you want to help me in the making of Polar Anticheat, my discord is Glitch#8024.
 
-</div>
+
 <div align="center">
   <img src="https://static.wixstatic.com/media/8ffe73_1c3ca87e2ab2409cbc95b447e74d809d~mv2.png/v1/crop/x_1,y_0,w_499,h_500/fill/w_476,h_476,al_c,q_85,usm_0.66_1.00_0.01/pack_icon.webp" width="500" />
 <div align="center">
@@ -17,69 +17,7 @@ width="250" />
 
 # Full List of usable commands
 
-```/function automod/on``` - turns on automod. Automod is a system that automatically bans people after they exceed a certain number of violations, which differ for each module (fly ban 3+ violations, item ban 5+ violations, killaura ban 2+ violations, speed ban 6+ violations, NBT ban 2+ violations, totem ban 2+ violations).<br />
-
-```/function automod/off``` - turns off automod. Automod is a system that automatically bans people after they exceed a certain number of violations, which differ for each module (fly ban 3+ violations, item ban 5+ violations, killaura ban 2+ violations, speed ban 6+ violations, NBT ban 2+ violations, totem ban 2+ violations).<br />
-
-```/function polar/vanish``` - makes the user invisible or visible again. Does not matter if they are wearing armour or holding stuff, however, the particles for sprinting still show. It toggles on and off when you run the command.<br />
-
-```/function polar/flagreset``` - resets the user’s violations and flags.<br />
-
-```/function polar/freeze``` - freezes the user until unfrozen. They cannot ender pearl away, move, jump or leave the block you locked them on. They can still see other players near them, but they have blindness and weakness. Execute at the player to use.<br />
-
-```/function polar/unfreeze``` - unfreezes the user if frozen. Clears them of all effects, but if they were previously frozen in the air, they could still die of fall damage. Execute at the player to use.<br>
-
-```/function polar/ecwipe``` - clears the users e-chest. Execute at the player to use.<br />
-
-```/function polar/player_stats``` - shows users stats to nearest staff. Stats include violations, armour, enchants, kills, deaths, and time played on the world (after this anticheat was installed, at least).<br />
-
-```/function polar/notifs_off``` - turns off notifs (popups for when users hack). Player specific, so execute at the player to use.<br />
-
-```/function polar/notifs_on``` - turns on notifs (popups for when users hack). Player specific, so execute at the player to use.<br />
-
-```/function toggle/flyFlags_off``` - turns off the fly module for that user. Default is on.<br />
-
-```/function toggle/flyFlags_on``` - turns on the fly module for that user. Default is on.<br />
-
-```/function toggle/speedFlags_off``` - turns off the speed module for that user. Default is on.<br />
-
-```/function toggle/speedFlags_on``` - turns on the speed module for that user. Default is on.<br />
-
-```/function toggle/jesusFlags_off``` - turns off the jesus module for that user. Default is on.<br />
-
-```/function toggle/jesusFlags_on``` - turns on the jesus module for that user. Default is on.<br />
-
-```/function toggle/speedFlags_off``` - turns off the speed module for that user. Default is on.<br />
-
-```/function toggle/speedFlags_on``` - turns on the speed module for that user. Default is on.<br />
-
-```/function toggle/killauraFlags_off``` - turns off the killaura module for that user. Default is on.<br />
-
-```/function toggle/killauraFlags_on``` - turns on the killaura module for that user. Default is on.<br />
-
-```/function nonessential/dp_flame``` - death particle is now a rising flame. Player specific, so execute at the player to use.<br />
-
-```/function nonessential/dp_poof``` - death particle is now a puff of smoke. Player specific, so execute at the player to use.<br />
-
-```/function nonessential/dp_explosion``` - death particle is now a small explosion. Player specific, so execute at the player to use.<br />
-
-```/function nonessential/dp_blank``` - death particle is now empty. Player specific, so execute at the player to use.<br />
-
-```/function nonessential/actionbar_dk``` - shows deaths and kills over Hotbar. Player specific, so execute at the player to use.<br />
-
-```/function nonessential/actionbar_dktp``` - shows deaths, kills, and time played over hotbar. Player specific, so execute at the player to use.<br />
-
-```/function nonessential/actionbar_tp``` - shows time played over hotbar. Player specific, so execute at the player to use.<br />
-
-```/function nonessential/actionbar_none``` - shows nothing over hotbar. Player specific, so execute at the player to use.<br />
-
-```/function global_toggle/killstreaks_on``` - turns on a system that shows a message in chat when someone gains a killstreak, or dies and loses the killstreak. Global setting, so it will be either on or off for every single player, and will affect players who have yet to join, or are offline currently. Deafult off.<br />
-
-```/function global_toggle/killstreaks_off``` - turns off a system that shows a message in chat when someone gains a killstreak, or dies and loses the killstreak. Global setting, so it will be either on or off for every single player, and will affect players who have yet to join, or are offline currently. Deafult off.<br />
-
-```/function global_toggle/enchants_allowed``` - unenchants peoples armor if set to disallowed. Global setting, so it will be either on or off for every single player, and will affect players who have yet to join, or are offline currently. Deafult off.<br />
-
-```/function global_toggle/enchants_disallowed``` - unenchants peoples armor if set to disallowed. Global setting, so it will be either on or off for every single player, and will affect players who have yet to join, or are offline currently. Deafult off.<br />
+For a full list of usable commands you can check out the polar client [wiki](
 
 # Hack list
 
