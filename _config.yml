@@ -2,6 +2,6 @@ theme: jekyll-theme-cayman
 description: Find my minecraft mods below!
 title: GlitchyTurtle
 
-layout: page
+layout: Polar-Anticheat
 title: "Polar-Anticheat"
-permalink: /polar-anticheat/
+permalink: /polar-anticheat
