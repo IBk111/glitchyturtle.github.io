@@ -1,11 +1,10 @@
 theme: jekyll-theme-tactile
-description: Find my minecraft mods below!
 title: GlitchyTurtle
 
 layout: Polar-Anticheat
 title: "Polar-Anticheat"
 permalink: https://glitchyturtle.github.io/polar-anticheat
 
-layout: Page
-title: "Mini MCC"
+layout: 
+title:
 permalink: https://glitchyturtle.github.io/minimcc
