@@ -5,3 +5,5 @@ permalink: https://glitchyturtle.github.io/minimcc
 -->
 
 # Mini MCC
+
+test text
