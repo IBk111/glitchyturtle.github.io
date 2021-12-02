@@ -1,7 +1,7 @@
 <!--
 layout: page
-title: "Polar Anticheat"
-permalink: https://glitchyturtle.github.io/polar-anticheat
+title: "Mini MCC"
+permalink: https://glitchyturtle.github.io/minimcc
 -->
 
 # Mini MCC
