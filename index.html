@@ -34,21 +34,3 @@
     <meta name="msapplication-config" content="/favicon/browserconfig.xml">
     <meta name="theme-color" content="#00c8ff">    <script src="https://apis.google.com/js/platform.js" async="" defer="" onload="gapi.load('auth2');" gapi_processed="true"></script>
     <meta name="google-signin-client_id" content="964366695455-4lers80dlpg8utqhkpmi6n60qb3hipnf.apps.googleusercontent.com">
-    <script type="text/javascript">
-        function onGoogleSignIn(u) {
-            if (typeof lolbeansOnGoogleSignIn !== "function") {
-                setTimeout(function() {
-                    onGoogleSignIn(u);
-                }, 100);
-            } else
-                lolbeansOnGoogleSignIn(u);
-        }
-
-        function onFacebookSignIn() {
-            if (typeof lolbeansCheckFacebookLoginStatus !== "function") {
-                setTimeout(function() {
-                    onFacebookSignIn();
-                }, 100);
-            } else
-                lolbeansCheckFacebookLoginStatus();
-        }
