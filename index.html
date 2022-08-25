@@ -237,15 +237,8 @@
 		============================ -->
         <section id="idocs_theme_customization">
           <h2>Commands</h2>
-          <p>Avatar Addon Chat Commands:</p>
+          <p>Here are the chat commands a player can use by defualt in Avatar Addon. Just type them into chat - if message is sent in chat, check if experimental is enabled.</p>
         		<table class="table table-bordered table-striped">
-				
-				
-				
-	player.runCommand(`tellraw @s {"rawtext":[{"text":"-----------------------------------------§r"}]}`);
-	player.runCommand(`tellraw @s {"rawtext":[{"text":"§l§bAvatar Addon Commands:"}]}`);
-	player.runCommand(`tellraw @s {"rawtext":[{"text":"§b!info <moves, slots, passives>§r - Get your current moves or slots to choose from!"}]}`);
-	if (!getScore("home", player)) { player.runCommand(`tellraw @s {"rawtext":[{"text":"§b!home <set, delete, teleport, help>§r - Creates or edits a home, which you can tp back too."}]}`); }
   <thead>
     <tr>
       <th scope="col">Command</th>
@@ -283,20 +276,62 @@
     </tr>
     <tr>
       <td>!info moves, slots, passives</th>
-      <td>Use the shop to sell and buy items, use <code>!shop help</code> to find out more</td>
+      <td>Get your current moves or slots to choose from!</td>
       <td><code>!info moves</code>
 	  <code>!info slots</code></td>
     </tr>
     <tr>
       <td>!home set, teleport, delete, list</th>
-      <td>Use the shop to sell and buy items, use <code>!shop help</code> to find out more</td>
+      <td>Creates or edits a home, which you can tp back too.</td>
       <td><code>!home set SecondaryHome</code>
 	  <code>!home teleport SecondaryHome</code></td>
     </tr>
   </tbody>
 </table>  
-		
-		
+
+<p>Here are the commands & chat commands a player can use by as an admin in Avatar Addon. Some of these are functions, and others are ! commands.</p>
+
+  <thead>
+    <tr>
+      <th scope="col">Command</th>
+      <th scope="col">Usage</th>
+      <th scope="col">Example</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>/function op</th>
+      <td>Make the player who runs the command a staff member, which grants them access to special staff commands.</td>
+      <td><code>/function op</code></td>
+    </tr>
+    <tr>
+      <td>/function settings/avatar, home, shop</th>
+      <td>Toggle a specific setting, like if players can use shops, avatar, or the home command.</td>
+      <td><code>/function settings/avatar</code>
+	  <code>/function settings/home</code>
+	  <code>/function settings/shop</code></td>
+    </tr>
+    <tr>
+      <td>!invsee @Playername</th>
+      <td>See a players inventory.</td>
+      <td><code>!bending</code></td>
+    </tr>
+    <tr>
+      <td>!levelup @Playername</th>
+      <td>Level a player up a certain amount.</td>
+      <td><code>!levelup @GlitchyTurtle32</code></td>
+    </tr>
+    <tr>
+      <td>!ping</th>
+      <td>Check the current tps.</td>
+      <td><code>!ping</code></td>
+    </tr>
+  </tbody>
+</table>  
+
+
+
+
 	<pre><code class="html">&lt;head&gt;
 &lt;!-- Stylesheet
 ============================== --&gt;
