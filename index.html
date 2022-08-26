@@ -177,19 +177,31 @@
 	  <p>Sometimes, bending can get annoying while just going about your normal tasks, so you can turn it off for a bit by holding arrows in your off-hand, or by typing !bending in chat.<br>
 	  <p>The moves and abilities of these classes are outlined below, and also in-game with the !info moves or !info slots.<br>
 	  <p>Have fun playing!<br>
-          <p class="alert alert-info">If you need more information, please visit bootstrap site: <a target="_blank" href="https://getbootstrap.com/docs/4.4/layout/grid/">https://getbootstrap.com</a></p>
         </section>
 		<hr class="divider">
-		        
 		<!-- Sass
 		============================ -->
         <section id="idocs_sass">
-          <h2>Sass</h2>
-          <p>We have added SASS <code>.scss</code> files in template. If you know how to use SASS you can change sass files and compile the css as well.
-            You can find sass file here - <code>HTML/assets/sass</code></p>
-          <p>Open the <code>sass/_variables.scss</code> and Edit the values according to your needs. If you need more Advanced Setup then you can Edit the Respective Files yourself which have been branched inside the same Folder. It is completely at your discretion only to include the Required <code>.scss</code> Files you need to minimize the amount of CSS & including only the Styles of the Blocks you need. This can be setup in your <code>stylesheet.scss</code> File.</p>
+          <h2>Settings</h2>
+          <p>This can also be found in the commands tab, but this will more clearly explain what each setting is!</p>
+          <p></p>
+        		<table class="table table-bordered table-striped">
+  <thead>
+    <tr>
+      <th scope="col">Avatar</th>
+      <th scope="col">Shop</th>
+      <th scope="col">Home</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>This settings controlls whether players can open their scroll and select avatar. If it is enabled, players can freely select avatar - most likely you will have more than one avatar. If it is disabled, players can only choose one of the four nations bending styles to choose from.</th>
+      <td>This settings controlls whether players can buy, sell, and use money with the <code>!shop</code> command. If enabled, players can wirelessly buy, sell, and store money in a scoreboard. If it is disabled, these options will not be available.</td>
+      <td>This settings controlls whether players can set homes (6 is the upper limit) that they can teleport back to in seconds with the <code>!shop</code> command (don't worry, they can't do it in combat). If it is disabled, these options will not be available.</td>
+    </tr>
+  </tbody>
+</table>  
         </section>
-        
 		<hr class="divider">
 		
 		<!-- Color Schemes
@@ -1360,7 +1372,6 @@
             <li><span class="badge badge-success">Added</span> Sub-bending: This new update adds sub-bending, which is unlocked at level 15, and can differ for each type. For Airbenders: Spirit - lets you become a spirit (unlockable new move at level 50), which can fly through blocks and scout areas out. Projectile -  bends the air around your arrows so they never miss again (range increases with level). For Firebenders: Lightning - certain moves get a buff of added lightning and you unlock a few new moves. Combustion - get an extra move similar to fire blast, but a beam with more range. You must be on full health to use. For Waterbenders: Blood - lets you freeze players in place on full moons. Healing -  heal yourself and other players. Buffs any healing moves greatly, and adds team moves. For Earthbenders: Metal - get extra iron when mining and a few new moves that consume iron ingots. Lava - get new moves that have a separate cooldown!</li>
 	    <li><span class="badge badge-success">Added</span> Shop: This new update adds a command known as !shop, which you can use to buy and sell items using just the chat. It has a bunch of subcommands, here they all are: !shop sell <price></price> - Sells whatever item you have in your main hand, for whatever price you specify from 10 to 10,000. !shop list - List all the items in the shop currently, each with their selection value so you can buy them. !shop buy <selection value=""></selection> - Buys the item with that selection value, automatically using your money to pay. !shop pay <player> <amount> </amount></player>- Pay another player money. !shop balance -Show your current balance. !shop help - show a help menu.</li>
 	    <li><span class="badge badge-success">Added</span> Optimizations: The entire addon has been optimized, so future updates will come faster, and include more moves. As well, most moves will revert back to their original state, as to not damage the environment.</li>
-            <li><span class="badge badge-info">Updated</span> FontAwesome to Latest Version</li>
 	    <li><span class="badge badge-info">Updated</span> Movelist: The previous movelist command has been replaced with a new command: !info The new syntax is: !info <moves passives="" slots="">. </moves>When using the command, it would look like !info slots. The system is much better for chat spam now, and automatically updates if you decide to add custom moves!</li>
 	    <li><span class="badge badge-info">Updated</span> Home: The !home command syntax has now been condensed into a single command, for instance: !home set Name. The new syntax is: !home set <name></name> - Creates a new home you can tp back to, at the position where you are standing.  !home teleport <name></name> - Teleports you back to one of your 6 homes! !home delete <name></name> - Delete one of your homes! !home list - list your homes.</li>
 	    <li><span class="badge badge-info">Updated</span> Stats: The old command !stats has been changed to accept an argument now, like !stats @GlitchyTurtle32.</li>
