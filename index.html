@@ -53,7 +53,7 @@
         <a class="logo ml-md-3" href="index.html" title="Avatar Addon"> <img src="assets/images/logo.png" alt="Avatar Addon"/> </a> 
 		<span class="text-2 ml-2">v1.19.20</span> 
         <!-- Logo End -->
-		<div id="header-nav" class="collapse navbar-collapse justify-content-start">
+		<div id="header-nav" class="collapse navbar-collapse justify-content-end">
         </div>
         <ul class="social-icons social-icons-sm ml-lg-2 mr-2">
           <li class="social-icons-twitter"><a data-toggle="tooltip" href="http://www.twitter.com/harnishdesign/" target="_blank" title="" data-original-title="Twitter"><i class="fab fa-twitter"></i></a></li>
@@ -195,7 +195,7 @@
 		<!-- Color Schemes
 		============================ -->
         <section id="idocs_color_schemes">
-          <h2>Commands</h2>
+          <h2>Moves</h2>
           <p>You can change your Website's Color Scheme in an instant. We have build <strong>10 Color</strong> css file for change template primary color.</p>
           <ul>
             <li><code>color-blue.css</code> - Blue Color</li>
@@ -328,28 +328,6 @@
     </tr>
   </tbody>
 </table>  
-
-
-
-
-	<pre><code class="html">&lt;head&gt;
-&lt;!-- Stylesheet
-============================== --&gt;
-&lt;!-- Bootstrap --&gt;
-&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;assets/vendor/bootstrap/css/bootstrap.min.css&quot; /&gt;
-&lt;!-- Font Awesome Icon --&gt;
-&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;assets/vendor/font-awesome/css/all.min.css&quot; /&gt;
-&lt;!-- Magnific Popup --&gt;
-&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;assets/vendor/magnific-popup/magnific-popup.min.css&quot; /&gt;
-&lt;!-- Highlight Syntax --&gt;
-&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;assets/vendor/highlight.js/styles/github.css&quot; /&gt;
-&lt;!-- Custom Stylesheet --&gt;
-&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;assets/css/stylesheet.css&quot; /&gt;
-
-&lt;!-- Here goes your custom.css
-============================================= --&gt;
-&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;assets/css/custom.css&quot; /&gt;
-&lt;/head&gt;</code></pre>
         </section>
         
 		<hr class="divider">
@@ -357,7 +335,7 @@
         <!-- Logo Settings
 		============================ -->
         <section id="idocs_logo_settings">
-          <h2>Logo Settings</h2>
+          <h2>Advanced</h2>
           <p>The Logo Container can be found in the Header Container - <code>&lt;header&gt;</code></p>
           <pre><code class="html">&lt;!-- Logo --&gt; 
 &lt;a class=&quot;logo ml-3 ml-md-0&quot; href=&quot;index.html&quot; title=&quot;Avatar Addon&quot;&gt;
@@ -1375,23 +1353,21 @@
           <h2>Changelog</h2>
           <p class="text-4">See what's new added, changed, fixed, improved or updated in the latest versions. </p>
 		  <p class="alert alert-info mb-5"> For Future Updates Follow Us <a target="_blank" href="http://themeforest.net/user/harnishdesign?ref=HarnishDesign">@themeforest</a> / <a target="_blank" href="http://facebook.com/harnishdesign">@facebook</a> / <a target="_blank" href="http://twitter.com/harnishdesign">@twitter</a> / <a target="_blank" href="https://dribbble.com/harnishdesign">@Dribbble</a></p>
-          
-		  <h3 id="v1-1">Version 1.1 <small class="text-muted">(12 Oct, 2020)</small></h3>
+	
+		
+		  <h3 id="v1-1">Version 1.19 <small class="text-muted">(12 Oct, 2020)</small></h3>
           <ul class="changelog">
-            <li><span class="badge badge-success">Added</span> Your information here for added new feature</li>
-            <li><span class="badge badge-danger">Fixed</span> Some minor bugs for browser compatibility</li>
-			<li><span class="badge badge-danger">Fixed</span> Some minor bugs for responsive</li>
+            <li><span class="badge badge-success">Added</span> Sub-bending: This new update adds sub-bending, which is unlocked at level 15, and can differ for each type. For Airbenders: Spirit - lets you become a spirit (unlockable new move at level 50), which can fly through blocks and scout areas out. Projectile -  bends the air around your arrows so they never miss again (range increases with level). For Firebenders: Lightning - certain moves get a buff of added lightning and you unlock a few new moves. Combustion - get an extra move similar to fire blast, but a beam with more range. You must be on full health to use. For Waterbenders: Blood - lets you freeze players in place on full moons. Healing -  heal yourself and other players. Buffs any healing moves greatly, and adds team moves. For Earthbenders: Metal - get extra iron when mining and a few new moves that consume iron ingots. Lava - get new moves that have a separate cooldown!</li>
+	    <li><span class="badge badge-success">Added</span> Shop: This new update adds a command known as !shop, which you can use to buy and sell items using just the chat. It has a bunch of subcommands, here they all are: !shop sell <price></price> - Sells whatever item you have in your main hand, for whatever price you specify from 10 to 10,000. !shop list - List all the items in the shop currently, each with their selection value so you can buy them. !shop buy <selection value=""></selection> - Buys the item with that selection value, automatically using your money to pay. !shop pay <player> <amount> </amount></player>- Pay another player money. !shop balance -Show your current balance. !shop help - show a help menu.</li>
+	    <li><span class="badge badge-success">Added</span> Optimizations: The entire addon has been optimized, so future updates will come faster, and include more moves. As well, most moves will revert back to their original state, as to not damage the environment.</li>
             <li><span class="badge badge-info">Updated</span> FontAwesome to Latest Version</li>
-			<li><span class="badge badge-info">Updated</span> Bootstrap to Latest Version</li>
-			<li><span class="badge badge-info">Updated</span> Improvements in CSS and JS</li>
-          </ul>
+	    <li><span class="badge badge-info">Updated</span> Movelist: The previous movelist command has been replaced with a new command: !info The new syntax is: !info <moves passives="" slots="">. </moves>When using the command, it would look like !info slots. The system is much better for chat spam now, and automatically updates if you decide to add custom moves!</li>
+	    <li><span class="badge badge-info">Updated</span> Home: The !home command syntax has now been condensed into a single command, for instance: !home set Name. The new syntax is: !home set <name></name> - Creates a new home you can tp back to, at the position where you are standing.  !home teleport <name></name> - Teleports you back to one of your 6 homes! !home delete <name></name> - Delete one of your homes! !home list - list your homes.</li>
+	    <li><span class="badge badge-info">Updated</span> Stats: The old command !stats has been changed to accept an argument now, like !stats @GlitchyTurtle32.</li>
+            <li><span class="badge badge-danger">Fixed</span> Chi-blocking now resets your combo so you can't preload it per one hit.</li>
+	    <li><span class="badge badge-danger">Fixed</span> Redundant scoreboards removed.</li>
+	</ul>
 		  
-		  <hr class="divider">
-		  
-          <h3 id="v1-0">Version 1.0 <small class="text-muted">(8 April, 2020)</small></h3>
-          <p>Initial Release</p>
-        </section>        
-        
       </div>
     </div>
 	
