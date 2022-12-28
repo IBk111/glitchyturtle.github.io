@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
 <link href="assets/images/favicon.png" rel="icon" />
-<title>Documentation | Avatar Addon</title>
+<title>Documentation | Your ThemeForest item Name</title>
 <meta name="description" content="Your ThemeForest item Name and description">
 <meta name="author" content="harnishdesign.net">
 
@@ -44,16 +44,39 @@
   ============================ -->
   <header id="header" class="sticky-top"> 
     <!-- Navbar -->
-    <nav class="primary-menu navbar navbar-expand-lg bg-light navbar-text-dark">
+    <nav class="primary-menu navbar navbar-expand-lg navbar-dropdown-dark">
       <div class="container-fluid">
         <!-- Sidebar Toggler -->
 		<button id="sidebarCollapse" class="navbar-toggler d-block d-md-none" type="button"><span></span><span class="w-75"></span><span class="w-50"></span></button>
 		
 		<!-- Logo --> 
-        <a class="logo ml-md-3" href="index.html" title="Avatar Addon"> <img src="assets/images/logo.png" alt="Avatar Addon"/> </a> 
-		<span class="text-2 ml-2">v1.19.20</span> 
+        <a class="logo ml-md-3" href="index.html" title="iDocs Template"> <img src="assets/images/logo.png" alt="iDocs Template"/> </a> 
+		<span class="text-2 ml-2">v1.0</span> 
         <!-- Logo End -->
+        
+		<!-- Navbar Toggler -->
+		<button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#header-nav"><span></span><span></span><span></span></button>
+        
 		<div id="header-nav" class="collapse navbar-collapse justify-content-end">
+          <ul class="navbar-nav">
+            <li class="dropdown"> <a class="dropdown-toggle" href="#">Dropdown</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li class="dropdown"><a class="dropdown-item dropdown-toggle" href="#">Dropdown Action</a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="index.html">Action</a></li>
+                    <li><a class="dropdown-item" href="feature-header-dark.html">Another Action</a></li>
+                    <li><a class="dropdown-item" href="feature-header-primary.html">Something Else Here</a></li>
+                    <li><a class="dropdown-item" href="index-2.html">Another Link</a></li>
+                  </ul>
+                </li>
+                <li><a class="dropdown-item" href="#">Another Action</a>
+                <li><a class="dropdown-item" href="#">Something Else Here</a></li>
+              </ul>
+            </li>
+            <li><a target="_blank" href="https://themeforest.net/user/harnishdesign/portfolio?ref=HarnishDesign">Other Template</a></li>
+            <li><a target="_blank" href="https://themeforest.net/user/harnishdesign/#contact?ref=HarnishDesign">Support</a></li>
+          </ul>
         </div>
         <ul class="social-icons social-icons-sm ml-lg-2 mr-2">
           <li class="social-icons-twitter"><a data-toggle="tooltip" href="http://www.twitter.com/harnishdesign/" target="_blank" title="" data-original-title="Twitter"><i class="fab fa-twitter"></i></a></li>
@@ -72,31 +95,53 @@
     
 	<!-- Sidebar Navigation
 	============================ -->
-	<div class="idocs-navigation bg-light docs-navigation-light">
+	<div class="idocs-navigation bg-dark docs-navigation-dark">
       <ul class="nav flex-column ">
         <li class="nav-item"><a class="nav-link active" href="#idocs_start">Getting Started</a>
           <ul class="nav flex-column">
             <li class="nav-item"><a class="nav-link" href="#idocs_installation">Installation</a></li>
-            <li class="nav-item"><a class="nav-link" href="#idocs_html_structure">Setup</a></li>
-            <li class="nav-item"><a class="nav-link" href="#idocs_sass">Settings</a></li>
-            <li class="nav-item"><a class="nav-link" href="#idocs_theme_customization">Commands</a></li>
-            <li class="nav-item"><a class="nav-link" href="#idocs_logo_settings">Advanced</a></li>
+            <li class="nav-item"><a class="nav-link" href="#idocs_html_structure">HTML Structure</a></li>
+            <li class="nav-item"><a class="nav-link" href="#idocs_sass">Sass</a></li>
+            <li class="nav-item"><a class="nav-link" href="#idocs_color_schemes">Color Schemes</a></li>
+            <li class="nav-item"><a class="nav-link" href="#idocs_theme_customization">Customization</a></li>
+            <li class="nav-item"><a class="nav-link" href="#idocs_logo_settings">Logo Settings</a></li>
           </ul>
         </li>
-        <li class="nav-item"><a class="nav-link" href="#bending_moves">Moves</a>
+        <li class="nav-item"><a class="nav-link" href="#idocs_layout">Layout</a>
           <ul class="nav flex-column">
-            <li class="nav-item"><a class="nav-link" href="#moves_air">Airbenders</a></li>
-            <li class="nav-item"><a class="nav-link" href="#moves_water">Waterbenders</a></li>
-            <li class="nav-item"><a class="nav-link" href="#moves_earth">Earthbenders</a></li>
-            <li class="nav-item"><a class="nav-link" href="#moves_fire">Firebenders</a></li>
+			<li class="nav-item"><a class="nav-link" href="#idocs_header">Header</a></li>
+			<li class="nav-item"><a class="nav-link" href="#idocs_navbar">Navbar</a></li>
+			<li class="nav-item"><a class="nav-link" href="#idocs_sidebar">Sidebar</a></li>
+			<li class="nav-item"><a class="nav-link" href="#idocs_footer">Footer</a></li>
+			<li class="nav-item"><a class="nav-link" href="#idocs_box_layout">Box Layout</a></li>
+          </ul>
+        </li>
+        <li class="nav-item"><a class="nav-link" href="#idocs_content">Content</a>
+			<ul class="nav flex-column">
+            <li class="nav-item"><a class="nav-link" href="#idocs_typography">Typography</a></li>
+            <li class="nav-item"><a class="nav-link" href="#idocs_code">Code</a></li>
+            <li class="nav-item"><a class="nav-link" href="#idocs_table">Table</a></li>
+			<li class="nav-item"><a class="nav-link" href="#idocs_icons">Icons</a></li>
+            <li class="nav-item"><a class="nav-link" href="#idocs_image">Image</a></li>
+			<li class="nav-item"><a class="nav-link" href="#idocs_video">Video</a></li>
+          </ul>
+		</li>
+        <li class="nav-item"><a class="nav-link" href="#idocs_components">Components</a>
+          <ul class="nav flex-column">
+            <li class="nav-item"><a class="nav-link" href="#idocs_accordion">Accordion</a></li>
+            <li class="nav-item"><a class="nav-link" href="#idocs_tabs">Tabs</a></li>
+            <li class="nav-item"><a class="nav-link" href="#idocs_social_icon">Social Icon</a></li>
+            <li class="nav-item"><a class="nav-link" href="#idocs_helper_classes">Helper Classes</a></li>
           </ul>
         </li>
 		<li class="nav-item"><a class="nav-link" href="#idocs_faq">FAQ</a></li>
         <li class="nav-item"><a class="nav-link" href="#idocs_source_credits">Source & Credits</a></li>
         <li class="nav-item"><a class="nav-link" href="#idocs_support">Support</a></li>
+		<li class="nav-item"><a class="nav-link" href="#idocs_templates">More Templates</a></li>
 		<li class="nav-item"><a class="nav-link" href="#idocs_changelog">Changelog</a>
 			<ul class="nav flex-column">
-            <li class="nav-item"><a class="nav-link" href="#v1-1">v1.19</a></li>
+            <li class="nav-item"><a class="nav-link" href="#v1-1">v1.1</a></li>
+            <li class="nav-item"><a class="nav-link" href="#v1-0">v1.0</a></li>
           </ul>
 		</li>
       </ul>
@@ -110,23 +155,25 @@
         <!-- Getting Started
 		============================ -->
         <section id="idocs_start">
-        <h1>Avatar Addon 1.19.20!</h1>
+        <h1>Documentation</h1>
+        <h2>Your ThemeForest Item Name Here</h2>
+        <p class="lead">Thank you so much for purchasing our item from themeforest.</p>
 		<hr>
 		<div class="row">
 			<div class="col-sm-6 col-lg-4">
 				<ul class="list-unstyled">
-					<li><strong>Version:</strong> 1.19.20</li>
-					<li><strong>Author:</strong> <a href="https://mcpedl.com/user/glitchyturtle32/" target="_blank">GlitchyTurtle32</a></li>
+					<li><strong>Version:</strong> 1.0</li>
+					<li><strong>Author:</strong> <a href="http://www.harnishdesign.net" target="_blank">Harnish Design</a></li>
 				</ul>
 			</div>
 			<div class="col-sm-6 col-lg-4">
 				<ul class="list-unstyled">
-					<li><strong class="font-weight-700">Pack Created:</strong> August 04, 2021</li>
-					<li><strong>Recent Update:</strong> August 25, 2022</li>
+					<li><strong class="font-weight-700">Created:</strong> 8 April, 2020</li>
+					<li><strong>Update:</strong> 12 May, 2020</li>
 				</ul>
 			</div>
 		</div>
-        <p class="alert alert-info">If you have any questions that are beyond the scope of this help file, Please feel free to ask on the <a target="_blank" href="https://discord.gg/6tDh4kYXXJ">Discord</a>!</p>
+        <p class="alert alert-info">If you have any questions that are beyond the scope of this help file, Please feel free to email via <a target="_blank" href="https://themeforest.net/user/harnishdesign/#contact?ref=HarnishDesign">Item Support Page</a>.</p>
         </section>
         
 		<hr class="divider">
@@ -135,159 +182,171 @@
 		============================ -->
         <section id="idocs_installation">
           <h2>Installation</h2>
-          <p class="lead">Follow the steps below to download and use avatar addon in minecraft:</p>
+          <p class="lead">Follow the steps below to setup your site template:</p>
           <ol>
-            <li>Download the pack from any link. Because you're actually reading the documentation, here is a no-ads link: <a href="http://www.harnishdesign.net" target="_blank">Free Download</a></li></li>
-            <li>Next, open it with in minecraft. If you're on PC, double click it. If you're on apple, use a different file editor to open it in minecraft (google drive works too). Android is fine to just open it in minecraft however you want, with the default files app.</li>
-            <li>Make sure the download goes through as normal (check the bug fixing tab if not), and then apply both the resource and behaviour packs to your world as normal.</li>
-            <li>You are good to go! Check the setup tab if you can't figure out how to get started.</li>
+            <li>Unzip the downloaded package and open the <strong>/HTML</strong> folder to find all the template files. You will need to upload these files to your hosting web server using FTP or localhost in order to use it on your website.</li>
+            <li>Below is the folder structure and needs to be uploaded to your website or localhost root directory:
+            <ul>
+			<li><code>HTML/assets</code> - Contains all of the assets referenced
+			  <ul>
+                <li><code>HTML/css</code> - Stylesheet files</li>
+                <li><code>HTML/images</code> - Images files</li>
+                <li><code>HTML/js</code> - Javacript files</li>
+                <li><code>HTML/sass</code> - Sass files</li>
+                <li><code>HTML/vendor</code> – All external libs.</li>
+              </ul>
+			</li>
+			<li><code>HTML/index.html</code> - Homepage
+			</ul>
+            </li>
+            <li>You should upload all or specific HTML files as per your need.</li>
+            <li>You are good to go for adding your content now!</li>
           </ol>
         </section>
+        
 		<hr class="divider">
 		
         <!-- HTML Structure
 		============================ -->
         <section id="idocs_html_structure">
-          <h2>Setup</h2>
-          <p>When you start out, nothing will happen. First, run the command !scroll. After that, you can choose your bending by opening it (long press or right click). The options are avatar, fire, earth, water, air, and human (normal vanilla Minecraft, with the ability to learn chi-blocking).<br>
-	  <p>When you pick a bending style, nothing will happen - you need to choose your moves for each of your “slots”. For instance, if you sneak then punch you will use whatever move is bound to slot 4. Let’s say you are an Airbender, and used the scroll to set slot 4 to Air Blast - when you sneak and punch, you will use Air Blast. You can use your scroll to bind moves to slots. Just right click on your scroll, and click on the sub-menu button “Choose Slots”. Try picking slot 4 first, since it’s the simplest. Eventually, you’ll have your slots memorized, and a set of 6 moves you like best. These 6 that you have “slot loaded” is what makes you different from other benders of the same type.<br>
-	  <p>Each type of bender will have a different moveset, and each individual bender will have an even more varied set of moves. As you level up, you get access to more moves. To level up, simply go about as normal - using moves will help you level up, but don’t try to afk, it won’t work.<br>
-	  <p>Sometimes, bending can get annoying while just going about your normal tasks, so you can turn it off for a bit by holding arrows in your off-hand, or by typing !bending in chat.<br>
-	  <p>The moves and abilities of these classes are outlined below, and also in-game with the !info moves or !info slots.<br>
-	  <p>Have fun playing!<br>
+          <h2>HTML Structure</h2>
+          <p>iDocs follows a simple and easy to customize coding structure. Here is the sample for your reference:<br>
+            The template is based on <a class="ml-1" target="_blank" href="https://getbootstrap.com/"><i class="fas fa-external-link-alt"></i> Bootstrap Framework</a></p>
+          <pre><code class="html">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+
+&lt;!-- Your Title, Description, Stylesheets
+============================================= --&gt;
+
+&lt;/head&gt;
+
+&lt;body data-spy=&quot;scroll&quot; data-target=&quot;.idocs-navigation&quot; data-offset=&quot;125&quot;&gt;
+
+&lt;!-- Document Wrapper   
+=============================== --&gt;
+&lt;div id=&quot;main-wrapper&quot;&gt; 
+  
+  &lt;!-- Header
+  ============================ --&gt;
+  &lt;header id=&quot;header&quot; class=&quot;sticky-top&quot;&gt;
+   ......
+  &lt;/header&gt;
+  &lt;!-- Header End --&gt; 
+  
+  &lt;!-- Content
+  ============================ --&gt;
+  &lt;div id=&quot;content&quot; role=&quot;main&quot;&gt; 
+    
+    &lt;!-- Sidebar Navigation
+    ============================ --&gt;
+    &lt;div class=&quot;idocs-navigation bg-light&quot;&gt;
+     .....
+    &lt;/div&gt;
+    
+    &lt;!-- Docs Content
+    ============================ --&gt;
+    &lt;div class=&quot;idocs-content&quot;&gt;
+      &lt;div class=&quot;container&quot;&gt;
+        .......
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;!-- Content end --&gt; 
+  
+  &lt;!-- Footer --&gt;
+  &lt;footer id=&quot;footer&quot; class=&quot;section bg-dark footer-text-light&quot;&gt;
+    &lt;div class=&quot;container&quot;&gt; ...... &lt;/div&gt;
+  &lt;/footer&gt;
+  &lt;!-- Footer end --&gt; 
+  
+&lt;/div&gt;
+&lt;!-- Document Wrapper end --&gt; 
+
+&lt;!-- JavaScript --&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+          <p class="alert alert-info">If you need more information, please visit bootstrap site: <a target="_blank" href="https://getbootstrap.com/docs/4.4/layout/grid/">https://getbootstrap.com</a></p>
         </section>
+        
 		<hr class="divider">
+		        
 		<!-- Sass
 		============================ -->
         <section id="idocs_sass">
-          <h2>Settings</h2>
-          <p>How to get the settings menu as an operator:</p>
-          <ol>
-	    <li>Run the command: <code>/function op</code></li>
-            <li>Then, check your scroll menu, and click through: Admin Menu -> World Settings, it should look like this:<img class="img-fluid border" src="assets/images/settings_menu.png" alt=""></li>
-            <li>Toggle the settings as you choose, and then click submit. It should have worked! (check the bug fixing tab if not)</li>
-            <li>You are good to go! Check below if you can't figure out what each setting does</li>
-          </ol>
-		
-          <p></p>
-        		<table class="table table-bordered table-striped">
-  <thead>
-    <tr>
-      <th scope="col">Avatar</th>
-      <th scope="col">Shop</th>
-      <th scope="col">Home</th>
-      <th scope="col">Cooldown</th>
-      <th scope="col">Chat Ranks</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>This settings controlls whether players can open their scroll and select avatar. If it is enabled, players can freely select avatar - most likely you will have more than one avatar. If it is disabled, players can only choose one of the four nations bending styles to choose from.</th>
-      <td>This settings controlls whether players can buy, sell, and use money with the scroll shop menu. If enabled, players can wirelessly buy, sell, and store money in a scoreboard. If it is disabled, these options will not be available.</td>
-      <td>This settings controlls whether players can set homes (6 is the upper limit) that they can teleport back to in seconds with the scroll (don't worry, they can't do it in combat). If it is disabled, these options will not be available.</td>
-      <td>This settings controlls whether players have a cooldown when using moves. If you want a smooth, non-buggy experinece, DO NOT use this setting (doubles the lag instantly, plus a plethora of other issues.</td>
-      <td>This settings controlls whether players see custom chat messages. Logo shows an icon next to their name of their bendingstyle, Basic shows a name (like "waterbender"), and None is the normal chat.</td>
-    </tr>
-  </tbody>
-</table>  
+          <h2>Sass</h2>
+          <p>We have added SASS <code>.scss</code> files in template. If you know how to use SASS you can change sass files and compile the css as well.
+            You can find sass file here - <code>HTML/assets/sass</code></p>
+          <p>Open the <code>sass/_variables.scss</code> and Edit the values according to your needs. If you need more Advanced Setup then you can Edit the Respective Files yourself which have been branched inside the same Folder. It is completely at your discretion only to include the Required <code>.scss</code> Files you need to minimize the amount of CSS & including only the Styles of the Blocks you need. This can be setup in your <code>stylesheet.scss</code> File.</p>
         </section>
+        
+		<hr class="divider">
+		
+		<!-- Color Schemes
+		============================ -->
+        <section id="idocs_color_schemes">
+          <h2>Color Schemes</h2>
+          <p>You can change your Website's Color Scheme in an instant. We have build <strong>10 Color</strong> css file for change template primary color.</p>
+          <ul>
+            <li><code>color-blue.css</code> - Blue Color</li>
+            <li><code>color-brown.css</code> - Brown Color</li>
+            <li><code>color-cyan.css</code> - Cyan Color</li>
+            <li><code>color-green.css</code> - Green Color</li>
+            <li><code>color-orange.css</code> - Orange Color</li>
+            <li><code>color-indigo.css</code> - Indigo Color</li>
+            <li><code>color-purple.css</code> - Purple Color</li>
+            <li><code>color-red.css</code> - Red Color</li>
+            <li><code>color-teal.css</code> - Teal Color</li>
+            <li><code>color-yellow.css</code> - Yellow Color</li>
+          </ul>
+          <p>Simply add Color CSS file link it in the Document <code>&lt;head&gt;</code>.<br>
+            Make sure you add the <code>css/color-blue.css</code> stylesheet in your head after the <code>css/stylesheet.css</code> file linking from above mentioned 10 color css file.</p>
+          <p><strong>For Example:</strong></p>
+          <pre><code class="html">&lt;head&gt;
+&lt;!-- Stylesheet
+============================== --&gt;
+&lt;!-- Bootstrap --&gt;
+&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;assets/vendor/bootstrap/css/bootstrap.min.css&quot; /&gt;
+&lt;!-- Font Awesome Icon --&gt;
+&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;assets/vendor/font-awesome/css/all.min.css&quot; /&gt;
+&lt;!-- Magnific Popup --&gt;
+&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;assets/vendor/magnific-popup/magnific-popup.min.css&quot; /&gt;
+&lt;!-- Highlight Syntax --&gt;
+&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;assets/vendor/highlight.js/styles/github.css&quot; /&gt;
+&lt;!-- Custom Stylesheet --&gt;
+&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;assets/css/stylesheet.css&quot; /&gt;
+
+&lt;!-- Here goes your Colors Css --&gt;
+&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;assets/css/color-orange.css&quot; /&gt;
+&lt;/head&gt;</code></pre>
+        </section>
+        
 		<hr class="divider">
 		
 		<!-- Customization
 		============================ -->
         <section id="idocs_theme_customization">
-          <h2>Commands</h2>
-          <p>Here are the chat commands a player can use by defualt in Avatar Addon. Just type them into chat - if message is sent in chat, check if experimental is enabled.</p>
-        		<table class="table table-bordered table-striped">
-  <thead>
-    <tr>
-      <th scope="col">Command</th>
-      <th scope="col">Usage</th>
-      <th scope="col">Example</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>!help</th>
-      <td>Show a help menu</td>
-      <td><code>!help</code></td>
-    </tr>
-    <tr>
-      <td>!scroll</th>
-      <td>Gives you the bending scroll, which you can use to choose, choose slots, edit settings, and more! Just right click/long press it.</td>
-      <td><code>!scroll</code></td>
-    </tr>
-    <tr>
-      <td>!bending</th>
-      <td>Toggles your ability to bend, you can also put arrows in your offhand.</td>
-      <td><code>!bending</code></td>
-    </tr>
-    <tr>
-      <td>!stats @Playername</th>
-      <td>Shows a players stats, like kills, deaths and level!</td>
-      <td><code>!stats @GlitchyTurtle32</code></td>
-    </tr>
-    <tr>
-      <td>!shop buy, sell, list, balance, pay, deposit, exract</th>
-      <td>Use the shop to sell and buy items, use <code>!shop help</code> to find out more</td>
-      <td><code>!shop sell 10,000</code>
-	  <code>!shop buy 1</code>
-	  <code>!shop pay @GlitchyTurtle32 100</code></td>
-    </tr>
-    <tr>
-      <td>!info moves, slots, passives</th>
-      <td>Get your current moves or slots to choose from!</td>
-      <td><code>!info moves</code>
-	  <code>!info slots</code></td>
-    </tr>
-    <tr>
-      <td>!home set, teleport, delete, list</th>
-      <td>Creates or edits a home, which you can tp back too.</td>
-      <td><code>!home set SecondaryHome</code>
-	  <code>!home teleport SecondaryHome</code></td>
-    </tr>
-  </tbody>
-</table>  
+          <h2>Theme Customization</h2>
+          <p>We have include a Custom CSS File in the <code>css</code> Folder so that you can better handle your Customizations for New Styles or
+            Overwriting Default Theme Styles. Simply add all your Custom CSS Codes in the <code>css/custom.css</code> File and link it in the Document <code>&lt;head&gt;</code> after the <code>css/stylesheet.css</code> Linking. Also make sure that this is the Last Linked CSS File in the Document <code>&lt;head&gt;</code> so that your Custom CSS Styles are Overwritten properly.</p>
+          <pre><code class="html">&lt;head&gt;
+&lt;!-- Stylesheet
+============================== --&gt;
+&lt;!-- Bootstrap --&gt;
+&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;assets/vendor/bootstrap/css/bootstrap.min.css&quot; /&gt;
+&lt;!-- Font Awesome Icon --&gt;
+&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;assets/vendor/font-awesome/css/all.min.css&quot; /&gt;
+&lt;!-- Magnific Popup --&gt;
+&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;assets/vendor/magnific-popup/magnific-popup.min.css&quot; /&gt;
+&lt;!-- Highlight Syntax --&gt;
+&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;assets/vendor/highlight.js/styles/github.css&quot; /&gt;
+&lt;!-- Custom Stylesheet --&gt;
+&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;assets/css/stylesheet.css&quot; /&gt;
 
-<p>Here are the commands & chat commands a player can use by as an admin in Avatar Addon. Some of these are functions, and others are ! commands.</p>
-<table class="table table-bordered table-striped">
-  <thead>
-    <tr>
-      <th scope="col">Command</th>
-      <th scope="col">Usage</th>
-      <th scope="col">Example</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>/function op</th>
-      <td>Make the player who runs the command a staff member, which grants them access to special staff commands.</td>
-      <td><code>/function op</code></td>
-    </tr>
-    <tr>
-      <td>/function settings/avatar, home, shop</th>
-      <td>Toggle a specific setting, like if players can use shops, avatar, or the home command.</td>
-      <td><code>/function settings/avatar</code>
-	  <code>/function settings/home</code>
-	  <code>/function settings/shop</code></td>
-    </tr>
-    <tr>
-      <td>!invsee @Playername</th>
-      <td>See a players inventory.</td>
-      <td><code>!bending</code></td>
-    </tr>
-    <tr>
-      <td>!levelup @Playername</th>
-      <td>Level a player up a certain amount.</td>
-      <td><code>!levelup @GlitchyTurtle32</code></td>
-    </tr>
-    <tr>
-      <td>!ping</th>
-      <td>Check the current tps.</td>
-      <td><code>!ping</code></td>
-    </tr>
-  </tbody>
-</table>  
+&lt;!-- Here goes your custom.css
+============================================= --&gt;
+&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;assets/css/custom.css&quot; /&gt;
+&lt;/head&gt;</code></pre>
         </section>
         
 		<hr class="divider">
@@ -295,38 +354,26 @@
         <!-- Logo Settings
 		============================ -->
         <section id="idocs_logo_settings">
-          <h2>Advanced</h2>
+          <h2>Logo Settings</h2>
           <p>The Logo Container can be found in the Header Container - <code>&lt;header&gt;</code></p>
           <pre><code class="html">&lt;!-- Logo --&gt; 
-&lt;a class=&quot;logo ml-3 ml-md-0&quot; href=&quot;index.html&quot; title=&quot;Avatar Addon&quot;&gt;
-   &lt;img src=&quot;images/logo-light.png&quot; alt=&quot;Avatar Addon&quot;/&gt;
+&lt;a class=&quot;logo ml-3 ml-md-0&quot; href=&quot;index.html&quot; title=&quot;iDocs&quot;&gt;
+   &lt;img src=&quot;images/logo-light.png&quot; alt=&quot;iDocs&quot;/&gt;
 &lt;/a&gt;
 &lt;!-- Logo End --&gt;
 </code></pre>
         </section>
 		
+        
+		<hr class="divider">
+		
 		<!-- Layout
 		============================ -->
-        <section id="bending_moves">
-          <h2>Bending Moves</h2>
-          <p class="lead mb-5">What moves and bonuses does each type of bender have?</p>
+        <section id="idocs_layout">
+          <h2>Layout</h2>
+          <p class="lead mb-5">Documentation and examples for header, navbar, sidebar, footer</p>
         </section>
-        <section id="moves_air">
-          <h2>Airbenders</h2>
-          <p>Documentation and examples for header, navbar, sidebar, footer</p>
-        </section>
-        <section id="moves_water">
-          <h2>Waterbenders</h2>
-          <p>Documentation and examples for header, navbar, sidebar, footer</p>
-        </section>
-        <section id="moves_earth">
-          <h2>Earthbenders</h2>
-          <p>Documentation and examples for header, navbar, sidebar, footer</p>
-        </section>
-        <section id="moves_fire">
-          <h2>Firebenders</h2>
-          <p>Documentation and examples for header, navbar, sidebar, footer</p>
-        </section>
+		
 		
         <!-- Header
 		============================ -->
@@ -1261,6 +1308,63 @@
 		
 		<hr class="divider">
 		
+		<!-- More Templates
+		============================ -->
+        <section id="idocs_templates">
+          <h2>More Templates</h2>
+          <p class="lead">Checkout Our Below Premium Templates</p>
+		  
+		  <div class="row">
+		  <div class="col-4 my-3 text-center">
+			<a target="_blank" href="https://themeforest.net/item/x/28476751?ref=HarnishDesign"><img class="img-fluid border" src="assets/images/templates/simone.jpg" alt="">
+			<h6 class="pt-2">Simone - Personal Portfolio Template</h6>
+			</a>
+		  </div>
+		  <div class="col-4 my-3 text-center">
+			<a target="_blank" href="https://themeforest.net/item/x/26454458?ref=HarnishDesign"><img class="img-fluid border" src="assets/images/templates/kenil.jpg" alt="">
+			<h6 class="pt-2">Kenil - Responsive Bootstrap 4 One Page Portfolio Template</h6>
+			</a>
+		  </div>
+		  <div class="col-4 my-3 text-center">
+			<a target="_blank" href="https://themeforest.net/item/x/26313677?ref=HarnishDesign"><img class="img-fluid border" src="assets/images/templates/doon.jpg" alt="">
+			<h6 class="pt-2">Doon - One Page Parallax HTML Template</h6>
+			</a>
+		  </div>
+		  
+		  <div class="col-4 my-3 text-center">
+			<a target="_blank" href="https://themeforest.net/item/x/27172933?ref=HarnishDesign"><img class="img-fluid border" src="assets/images/templates/domainx.jpg" alt="">
+			<h6 class="pt-2">DomainX- Domain for Sale HTML Template</h6>
+			</a>
+		  </div>
+		  <div class="col-4 my-3 text-center">
+			<a target="_blank" href="https://themeforest.net/item/x/28848609?ref=HarnishDesign"><img class="img-fluid border" src="assets/images/templates/oxyy.jpg" alt="">
+			<h6 class="pt-2">Oxyy - Login and Register Form HTML Templates</h6>
+			</a>
+		  </div>
+		  <div class="col-4 my-3 text-center">
+			<a target="_blank" href="https://themeforest.net/item/x/27034971?ref=HarnishDesign"><img class="img-fluid border" src="assets/images/templates/koice.jpg" alt="">
+			<h6 class="pt-2">Koice - Invoice HTML Template</h6>
+			</a>
+		  </div>
+		  
+		  <div class="col-4 my-3 text-center">
+			<a target="_blank" href="https://themeforest.net/item/x/24017808?ref=HarnishDesign"><img class="img-fluid border" src="assets/images/templates/payyed.jpg" alt="">
+			<h6 class="pt-2">Payyed - Money Transfer and Online Payments HTML Template</h6>
+			</a>
+		  </div>
+		  <div class="col-4 my-3 text-center">
+			<a target="_blank" href="https://themeforest.net/item/x/22375065?ref=HarnishDesign"><img class="img-fluid border" src="assets/images/templates/quickai.jpg" alt="">
+			<h6 class="pt-2">Quickai - Recharge & Bill Payment, Booking HTML5 Template</h6>
+			</a>
+		  </div>
+		  </div>
+		  
+		  <p class="text-center"><a class="btn btn-lg btn-primary my-4" target="_blank" href="https://themeforest.net/user/harnishdesign/portfolio?ref=HarnishDesign">Our Portfolio</a></p>
+          
+        </section>
+		
+		<hr class="divider">
+		
         <!-- Changelog
 		============================ -->
 		
@@ -1268,20 +1372,23 @@
           <h2>Changelog</h2>
           <p class="text-4">See what's new added, changed, fixed, improved or updated in the latest versions. </p>
 		  <p class="alert alert-info mb-5"> For Future Updates Follow Us <a target="_blank" href="http://themeforest.net/user/harnishdesign?ref=HarnishDesign">@themeforest</a> / <a target="_blank" href="http://facebook.com/harnishdesign">@facebook</a> / <a target="_blank" href="http://twitter.com/harnishdesign">@twitter</a> / <a target="_blank" href="https://dribbble.com/harnishdesign">@Dribbble</a></p>
-	
-		
-		  <h3 id="v1-1">Version 1.19 <small class="text-muted">(12 Oct, 2020)</small></h3>
+          
+		  <h3 id="v1-1">Version 1.1 <small class="text-muted">(12 Oct, 2020)</small></h3>
           <ul class="changelog">
-            <li><span class="badge badge-success">Added</span> Sub-bending: This new update adds sub-bending, which is unlocked at level 15, and can differ for each type. For Airbenders: Spirit - lets you become a spirit (unlockable new move at level 50), which can fly through blocks and scout areas out. Projectile -  bends the air around your arrows so they never miss again (range increases with level). For Firebenders: Lightning - certain moves get a buff of added lightning and you unlock a few new moves. Combustion - get an extra move similar to fire blast, but a beam with more range. You must be on full health to use. For Waterbenders: Blood - lets you freeze players in place on full moons. Healing -  heal yourself and other players. Buffs any healing moves greatly, and adds team moves. For Earthbenders: Metal - get extra iron when mining and a few new moves that consume iron ingots. Lava - get new moves that have a separate cooldown!</li>
-	    <li><span class="badge badge-success">Added</span> Shop: This new update adds a command known as !shop, which you can use to buy and sell items using just the chat. It has a bunch of subcommands, here they all are: !shop sell <price></price> - Sells whatever item you have in your main hand, for whatever price you specify from 10 to 10,000. !shop list - List all the items in the shop currently, each with their selection value so you can buy them. !shop buy <selection value=""></selection> - Buys the item with that selection value, automatically using your money to pay. !shop pay <player> <amount> </amount></player>- Pay another player money. !shop balance -Show your current balance. !shop help - show a help menu.</li>
-	    <li><span class="badge badge-success">Added</span> Optimizations: The entire addon has been optimized, so future updates will come faster, and include more moves. As well, most moves will revert back to their original state, as to not damage the environment.</li>
-	    <li><span class="badge badge-info">Updated</span> Movelist: The previous movelist command has been replaced with a new command: !info The new syntax is: !info <moves passives="" slots="">. </moves>When using the command, it would look like !info slots. The system is much better for chat spam now, and automatically updates if you decide to add custom moves!</li>
-	    <li><span class="badge badge-info">Updated</span> Home: The !home command syntax has now been condensed into a single command, for instance: !home set Name. The new syntax is: !home set <name></name> - Creates a new home you can tp back to, at the position where you are standing.  !home teleport <name></name> - Teleports you back to one of your 6 homes! !home delete <name></name> - Delete one of your homes! !home list - list your homes.</li>
-	    <li><span class="badge badge-info">Updated</span> Stats: The old command !stats has been changed to accept an argument now, like !stats @GlitchyTurtle32.</li>
-            <li><span class="badge badge-danger">Fixed</span> Chi-blocking now resets your combo so you can't preload it per one hit.</li>
-	    <li><span class="badge badge-danger">Fixed</span> Redundant scoreboards removed.</li>
-	</ul>
+            <li><span class="badge badge-success">Added</span> Your information here for added new feature</li>
+            <li><span class="badge badge-danger">Fixed</span> Some minor bugs for browser compatibility</li>
+			<li><span class="badge badge-danger">Fixed</span> Some minor bugs for responsive</li>
+            <li><span class="badge badge-info">Updated</span> FontAwesome to Latest Version</li>
+			<li><span class="badge badge-info">Updated</span> Bootstrap to Latest Version</li>
+			<li><span class="badge badge-info">Updated</span> Improvements in CSS and JS</li>
+          </ul>
 		  
+		  <hr class="divider">
+		  
+          <h3 id="v1-0">Version 1.0 <small class="text-muted">(8 April, 2020)</small></h3>
+          <p>Initial Release</p>
+        </section>        
+        
       </div>
     </div>
 	
@@ -1290,7 +1397,7 @@
   
   <!-- Footer
   ============================ -->
-  <footer id="footer" class="section bg-light footer-text-dark">
+  <footer id="footer" class="section bg-dark footer-text-light">
     <div class="container">
       <ul class="social-icons social-icons-lg social-icons-muted justify-content-center mb-3">
         <li><a data-toggle="tooltip" href="https://twitter.com/harnishdesign/" target="_blank" title="" data-original-title="Twitter"><i class="fab fa-twitter"></i></a></li>
